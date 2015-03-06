@@ -2,7 +2,7 @@ import java.net.*;
 
 public class AdminFinder {
    private static String url,urlfinal,protocolo[]={"https:/"+"/", "http:/"+"/"};
-   private static String[] paths = {"admin","admin.php","login","login.php","adm","adm.php","administrator","administrador","intranet","wp-admin","wp$
+   private static String[] paths = {"admin","admin.php","login","login.php","adm","adm.php","administrator","administrador","intranet","wp-admin","wp-login","wp-login.php"};
         public static void main(String[]args) {
                 try{
                         AdminFinder i = new AdminFinder();
